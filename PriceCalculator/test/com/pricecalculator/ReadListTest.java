@@ -5,6 +5,7 @@
  */
 package com.pricecalculator;
 
+import java.math.BigDecimal;
 import java.util.regex.Matcher;
 import org.junit.After;
 import org.junit.AfterClass;
@@ -47,52 +48,22 @@ public class ReadListTest {
         String filename = "sourceFiles/Input13.txt";
         ReadList.getFromFile(filename);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
-     * Test of correctInput method, of class ReadList.
-     */
-    @Test
-    public void testCorrectInput() {
-        System.out.println("correctInput");
-        String order = "";
-        boolean expResult = false;
-        boolean result = ReadList.correctInput(order);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of setItem method, of class ReadList.
+     * Test of setItem method, of class ReadList. 
+     * Verify that it creates an Item correctly
      */
     @Test
     public void testSetItem() {
         System.out.println("setItem");
-        String order = "1 book at 12.49";
-        Item expResult = null;
+        String order = "1 imported book at 12.49";
         Item result = ReadList.setItem(order);
-        System.out.println("Item Name: " + result.getItemName());
-        System.out.println("Number of items: " + result.getNumberOf());
-        System.out.println("Price: " + result.getPrice());
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        result.printItem();
+        assertEquals(result.getItemName(), "imported book");
+        assertEquals(result.getNumberOf(), 1);
+        assertEquals(result.isApplySalesTax(), false);
+        assertEquals(result.isImported(), true);
+        assertEquals(result.getPrice(), new BigDecimal("12.49"));
     }
-
-    /**
-     * Test of parse method, of class ReadList.
-     */
-    @Test
-    public void testParse() {
-        System.out.println("parse");
-        String order = "";
-        Matcher expResult = null;
-        Matcher result = ReadList.parse(order);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-    
 }

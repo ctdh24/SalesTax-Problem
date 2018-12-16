@@ -23,11 +23,13 @@ import java.util.regex.Pattern;
 public class ReadList {
     // parse string 
     private static final String itemRegex = "(\\d+)\\s((\\w+\\s)+)at\\s(\\d+.\\d+)";
-    // using hash set to quickly look for things in a set list. O(1)
+    // using hash set to quickly look for things in a set list. O(1) complexity to look up
+    // assuming that there is a cataloged list of set items
     private static Set<String> noSalesTaxItems = null;
     static{
         noSalesTaxItems = new HashSet<String>();
         noSalesTaxItems.add("book");
+        noSalesTaxItems.add("imported book");
         noSalesTaxItems.add("chocolate bar");
         noSalesTaxItems.add("imported box of chocolates");
         noSalesTaxItems.add("box of imported chocolates");
@@ -45,7 +47,8 @@ public class ReadList {
                 if(correctInput(str)){
                     Item item = new Item();
                     item = setItem(str);
-                    System.out.println(str);
+                    //System.out.println(str);
+                    items.add(item);
                 }
                     
             }
@@ -53,6 +56,9 @@ public class ReadList {
         }
         catch(IOException e){
             System.out.println("error: " + e);
+        }
+        for (Item i : items){
+            
         }
     }
     //look for correct input

@@ -18,7 +18,7 @@ public class Item {
     private boolean applySalesTax; //false for food, books, medicine. True for everything else
     private BigDecimal price;
     private boolean imported;
-
+       
     public String getItemName() {
         return itemName;
     }
@@ -67,5 +67,12 @@ public class Item {
         this.imported = imported;
     }
     
+    public void printItem(){
+        System.out.println("Item Name: " + this.getItemName());
+        System.out.println("Number of items: " + this.getNumberOf());
+        System.out.println("Apply sales tax: " + this.isApplySalesTax());
+        System.out.println("Is imported: " + this.isImported());
+        System.out.println("Price: " + this.getPrice());
+    }
     
 }

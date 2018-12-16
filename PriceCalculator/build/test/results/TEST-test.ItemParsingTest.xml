@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="DESKTOP-N4V1R9U" name="test.ItemParsingTest" skipped="0" tests="1" time="0.06" timestamp="2018-12-16T06:00:54">
+<testsuite errors="1" failures="0" hostname="DESKTOP-N4V1R9U" name="test.ItemParsingTest" skipped="0" tests="1" time="0.063" timestamp="2018-12-16T20:59:18">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="US" />
@@ -11,7 +11,7 @@
     <property name="ant.core.lib" value="C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant.jar" />
     <property name="javadoc.windowtitle" value="" />
     <property name="libs.jsp-compilation.javadoc" value="" />
-    <property name="user.dir" value="C:\Users\Calvin Huynh\Documents\NetBeansProjects\PriceCalculator" />
+    <property name="user.dir" value="C:\Users\Calvin Huynh\Documents\github\SalesTax-Problem\PriceCalculator" />
     <property name="libs.javaee-api-7.0.src" value="" />
     <property name="java.vm.version" value="25.191-b12" />
     <property name="libs.DataBindingME.classpath" value="C:\Program Files (x86)\NetBeans 8.2\mobility\modules\ext\netbeans_databindingme.jar" />
@@ -35,7 +35,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
     <property name="netbeans.autoupdate.variant" value="" />
-    <property name="ant.file.PriceCalculator-impl" value="C:\Users\Calvin Huynh\Documents\NetBeansProjects\PriceCalculator\nbproject\build-impl.xml" />
+    <property name="ant.file.PriceCalculator-impl" value="C:\Users\Calvin Huynh\Documents\github\SalesTax-Problem\PriceCalculator\nbproject\build-impl.xml" />
     <property name="have.tests" value="true" />
     <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
     <property name="libs.hamcrest.classpath" value="C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar" />
@@ -62,7 +62,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.ItemParsingTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Calvin Huynh\Documents\NetBeansProjects\PriceCalculator\build\test\results\TEST-test.ItemParsingTest.xml crashfile=C:\Users\Calvin Huynh\Documents\NetBeansProjects\PriceCalculator\build\junitvmwatcher1479887692141870084.properties propsfile=C:\Users\Calvin Huynh\Documents\NetBeansProjects\PriceCalculator\build\junit1933512898777712561.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.ItemParsingTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Calvin Huynh\Documents\github\SalesTax-Problem\PriceCalculator\build\test\results\TEST-test.ItemParsingTest.xml crashfile=C:\Users\Calvin Huynh\Documents\github\SalesTax-Problem\PriceCalculator\build\junitvmwatcher8630532050355848544.properties propsfile=C:\Users\Calvin Huynh\Documents\github\SalesTax-Problem\PriceCalculator\build\junit2127818990293595174.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -127,12 +127,12 @@
     <property name="javadoc.author" value="false" />
     <property name="libs.metro.maven-pom" value="" />
     <property name="libs.EclipseLink-GlassFish-v3.src" value="" />
-    <property name="ant.file.PriceCalculator" value="C:\Users\Calvin Huynh\Documents\NetBeansProjects\PriceCalculator\build.xml" />
+    <property name="ant.file.PriceCalculator" value="C:\Users\Calvin Huynh\Documents\github\SalesTax-Problem\PriceCalculator\build.xml" />
     <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
     <property name="libs.spring-framework400.src" value="" />
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="basedir" value="C:\Users\Calvin Huynh\Documents\NetBeansProjects\PriceCalculator" />
+    <property name="basedir" value="C:\Users\Calvin Huynh\Documents\github\SalesTax-Problem\PriceCalculator" />
     <property name="libs.jpa20-persistence.maven-pom" value="" />
     <property name="jar.compress" value="false" />
     <property name="libs.javaee-web-api-7.0.classpath" value="C:\Program Files (x86)\NetBeans 8.2\enterprise\modules\ext\javaee-web-api-7.0.jar" />
@@ -177,7 +177,7 @@
     <property name="libs.spring-webmvc4.0.maven-pom" value="" />
     <property name="libs.spring-framework300.src" value="" />
     <property name="libs.jstl.src" value="" />
-    <property name="empty.dir" value="C:\Users\Calvin Huynh\Documents\NetBeansProjects\PriceCalculator\build\empty" />
+    <property name="empty.dir" value="C:\Users\Calvin Huynh\Documents\github\SalesTax-Problem\PriceCalculator\build\empty" />
     <property name="version-output" value="java version &quot;1.8" />
     <property name="test.binarytestincludes" value="" />
     <property name="libs.hibernate4-persistencemodelgen.src" value="" />
@@ -221,7 +221,7 @@
     <property name="javac.processorpath" value="" />
     <property name="libs.hamcrest.maven-pom" value="" />
     <property name="javac.compilerargs" value="" />
-    <property name="ant.file" value="C:\Users\Calvin Huynh\Documents\NetBeansProjects\PriceCalculator\build.xml" />
+    <property name="ant.file" value="C:\Users\Calvin Huynh\Documents\github\SalesTax-Problem\PriceCalculator\build.xml" />
     <property name="libs.beans-binding.maven-pom" value="" />
     <property name="libs.hibernate4-support.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="libs.jsf12.classpath" value="C:\Program Files (x86)\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\commons-beanutils.jar;C:\Program Files (x86)\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\commons-collections.jar;C:\Program Files (x86)\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\commons-digester.jar;C:\Program Files (x86)\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\commons-logging.jar;C:\Program Files (x86)\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\jsf-api.jar;C:\Program Files (x86)\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\jsf-impl.jar" />
@@ -301,7 +301,7 @@
     <property name="libs.jaxb.src" value="" />
     <property name="jdk.launcher.addexports.5" value="java.management/sun.management=ALL-UNNAMED" />
     <property name="jdk.launcher.addexports.4" value="java.desktop/com.sun.java.swing.plaf.windows=ALL-UNNAMED" />
-    <property name="work.dir" value="C:\Users\Calvin Huynh\Documents\NetBeansProjects\PriceCalculator" />
+    <property name="work.dir" value="C:\Users\Calvin Huynh\Documents\github\SalesTax-Problem\PriceCalculator" />
     <property name="jdk.launcher.addexports.3" value="java.desktop/sun.awt.im=ALL-UNNAMED" />
     <property name="libs.jaxb.classpath" value="C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\jaxb1-impl.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\activation.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
     <property name="jdk.launcher.addexports.2" value="java.desktop/java.awt.peer=ALL-UNNAMED" />
@@ -325,7 +325,7 @@
     <property name="junit.forkmode" value="perTest" />
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes" />
     <property name="javac.target" value="1.8" />
-    <property name="built-jar.properties" value="C:\Users\Calvin Huynh\Documents\NetBeansProjects\PriceCalculator\build\built-jar.properties" />
+    <property name="built-jar.properties" value="C:\Users\Calvin Huynh\Documents\github\SalesTax-Problem\PriceCalculator\build\built-jar.properties" />
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="src.dir" value="src" />
     <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
@@ -370,7 +370,7 @@
     <property name="libs.metro.classpath" value="C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\activation.jar;C:\Program Files (x86)\NetBeans 8.2\enterprise\modules\ext\metro\webservices-api.jar;C:\Program Files (x86)\NetBeans 8.2\enterprise\modules\ext\metro\webservices-extra-api.jar;C:\Program Files (x86)\NetBeans 8.2\enterprise\modules\ext\metro\webservices-extra.jar;C:\Program Files (x86)\NetBeans 8.2\enterprise\modules\ext\metro\webservices-rt.jar;C:\Program Files (x86)\NetBeans 8.2\enterprise\modules\ext\metro\webservices-tools.jar" />
     <property name="libs.jpa2-persistence.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="libs.DataBindingME.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\mobility\modules\docs\netbeans_databindingme-api.zip" />
-    <property name="java.class.path" value="C:\Users\Calvin Huynh\Documents\NetBeansProjects\PriceCalculator\build\classes;C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar;C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar;C:\Users\Calvin Huynh\Documents\NetBeansProjects\PriceCalculator\build\test\classes;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant-launcher.jar;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant-junit.jar;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant-junit4.jar" />
+    <property name="java.class.path" value="C:\Users\Calvin Huynh\Documents\github\SalesTax-Problem\PriceCalculator\build\classes;C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar;C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar;C:\Users\Calvin Huynh\Documents\github\SalesTax-Problem\PriceCalculator\build\test\classes;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant-launcher.jar;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant-junit.jar;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant-junit4.jar" />
     <property name="apple.laf.useScreenMenuBar" value="true" />
     <property name="do.mkdist" value="true" />
     <property name="libs.absolutelayout.src" value="" />
