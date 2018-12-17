@@ -1,5 +1,6 @@
 # SalesTax-Problem
 Author: Calvin Huynh 12/15/2018
+Developed and tested using Netbeans IDE 8.2
 
 My attempt at the sales tax problem 
 ***
