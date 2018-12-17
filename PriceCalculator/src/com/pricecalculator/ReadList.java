@@ -105,5 +105,6 @@ public class ReadList {
         }
         System.out.println("Sales tax: " + totalTax);
         System.out.println("Total: " + totalPriceWithTax);
+        System.out.println();
     }
 }
