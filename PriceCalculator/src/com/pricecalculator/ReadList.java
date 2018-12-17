@@ -57,9 +57,7 @@ public class ReadList {
         catch(IOException e){
             System.out.println("error: " + e);
         }
-        for (Item i : items){
-            
-        }
+        finalOutput(items);
     }
     //look for correct input
     public static boolean correctInput(String order){
@@ -92,5 +90,20 @@ public class ReadList {
         Matcher matcher = pattern.matcher(order);
         matcher.find();
         return matcher;
+    }
+    
+    public static void finalOutput(List<Item> items){
+        BigDecimal totalTax = BigDecimal.ZERO;
+        BigDecimal totalPriceWithTax = BigDecimal.ZERO;
+        for (Item i : items){
+            BigDecimal salesTax = TotalPriceCalculator.calculateSalesTax(i);
+            BigDecimal importTax = TotalPriceCalculator.calculateImportTax(i);
+            totalTax = totalTax.add(salesTax.add(importTax));
+            BigDecimal totalPrice = TotalPriceCalculator.calculatePrice(i);
+            totalPriceWithTax = totalPriceWithTax.add(totalPrice);
+            System.out.println(i.getNumberOf()+" "+i.getItemName()+": "+totalPrice);
+        }
+        System.out.println("Sales tax: " + totalTax);
+        System.out.println("Total: " + totalPriceWithTax);
     }
 }

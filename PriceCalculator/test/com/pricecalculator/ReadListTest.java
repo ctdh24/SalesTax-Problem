@@ -6,6 +6,8 @@
 package com.pricecalculator;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Matcher;
 import org.junit.After;
 import org.junit.AfterClass;
@@ -65,5 +67,20 @@ public class ReadListTest {
         assertEquals(result.isApplySalesTax(), false);
         assertEquals(result.isImported(), true);
         assertEquals(result.getPrice(), new BigDecimal("12.49"));
+    }
+
+    /**
+     * Test of finalOutput method, of class ReadList.
+     */
+    @Test
+    public void testFinalOutput() {
+        System.out.println("finalOutput");
+        List<Item> items = new ArrayList();
+        String order1 = "1 imported box of chocolates at 10.00";
+        String order2 = "1 imported bottle of perfume at 47.50";
+        items.add(ReadList.setItem(order1));
+        items.add(ReadList.setItem(order2));
+        ReadList.finalOutput(items);
+        // TODO review the generated test code and remove the default call to fail.
     }
 }
